@@ -1,5 +1,5 @@
 //testing question 1
-describe("replacewith",function(){
+describe("replaceWith",function(){
     it("returns the string with the replacements",function(){
         expect(replaceWith("awesome","e","z")).toEqual("awzsomz");
     });
@@ -21,7 +21,7 @@ describe('expand', function()  {
 
 
 //testing question 3
-describe('only numbers', function () {
+describe('acceptNumbersOnly', function () {
     it('returns true if all arguments are numbers', function()  {
         expect(acceptNumbersOnly(1,2,3,4,5,6,7)).toEqual(true)
     })
